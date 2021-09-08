@@ -27,7 +27,7 @@ export default function App() {
 				`
 				Nome: ${data.nome}
 				Idade: ${data.idade}
-				Gênero: ${data.genero}
+				Genero: ${data.genero}
 				Limite: R$ ${data.limite.toFixed(2)}
 				Conta Estudante: ${data.estudante ? 'Ativo' : 'Inativo'}
 				`,
