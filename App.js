@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import { Picker, StyleSheet, Switch, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
+import {StyleSheet, Switch, Text, TextInput, TouchableOpacity, View, Alert } from 'react-native';
+import {Picker} from '@react-native-picker/picker';
 import Slider from '@react-native-community/slider';
 import Button from './src/components/Button';
 import colors from './src/colors.js'
@@ -83,7 +84,7 @@ export default function App() {
 				</View>
 
 				<View>
-					<Text style={styles.label}>{'Gênero'}</Text>
+					<Text style={styles.label}>{'Genero'}</Text>
 					<View style={styles.input}>
 						<Picker
 							onValueChange={val => handleData(val, 'genero')}
