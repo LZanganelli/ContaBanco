@@ -8,6 +8,7 @@ import sizes from './src/sizes.js'
 
 const initialData = {
 	limite: 0,
+	estudante: false,
 }
 
 export default function App() {
